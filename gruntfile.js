@@ -5,9 +5,13 @@ module.exports = function(grunt) {
 				files: ['sass/**/*.scss'],
 				tasks: ['sass'],
 				options: {
-					'livereload': 'true'
+					livereload: true
 				}
-			}
+			},
+			livereload: {
+      			options: { livereload: true },
+     			files: ['public/**/*', 'views/**/*']
+     		}
 		},
 		sass: {
 			dist: {
