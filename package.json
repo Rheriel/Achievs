@@ -1,0 +1,36 @@
+{
+  "name": "Achievs",
+  "version": "1.0.0",
+  "description": "Record life achievements.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rheriel/Achievs.git"
+  },
+  "keywords": [
+    "achievements",
+    "achieves",
+    "achievs",
+    "game-layer",
+    "mean"
+  ],
+  "author": "Jorge Perez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rheriel/Achievs/issues"
+  },
+  "private": "true",
+  "homepage": "https://github.com/Rheriel/Achievs",
+  "dependencies": {
+    "express": "^4.13.3",
+    "jade": "^1.11.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-sass": "^1.1.0-beta"
+  }
+}
