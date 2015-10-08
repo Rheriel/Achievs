@@ -1,5 +1,26 @@
-script(src="//localhost:35729/livereload.js")
-link(rel='stylesheet', href='stylesheets/style.css')
-link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Pacifico')
+doctype html5
+title pageTitle
+extends layout
 
-h1.hero-logo Achieves
+block content
+	.layout-transparent.mdl-layout.mdl-js-layout
+		header.mdl-layout__header.mdl-layout__header--transparent
+			.mdl-layout__header-row
+				span.mdl-layout-title
+					h1.hero-logo-white Achievs
+				.mdl-layout-spacer
+				nav.mdl-navigation
+					.menu-button
+						button.mdl-button.mdl-js-button.mdl-button--raised.mdl-js-ripple-effect.mdl-button--accent Register
+					.menu-button
+						button.mdl-button.mdl-js-button.mdl-button--raised.mdl-js-ripple-effect.mdl-button--colored Log in
+		.mdl-layout__drawer
+			span.mdl-layout-title 
+				h1.hero-logo-black Achievs
+			nav.mdl-navigation
+				a.mdl-navigation__link(href="") Link
+				a.mdl-navigation__link(href="") Link
+		main.mdl-layout__content
+
+		include mini-footer
+					
