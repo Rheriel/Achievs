@@ -1,5 +1,5 @@
 .hero-logo-white {
-	font: 100 50px/1.5 'Pacifico', Helvetica, sans-serif;
+	font: 100 30px/1.5 'Pacifico', Helvetica, sans-serif;
  	color: #F9F9F9;
  	text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
 }
@@ -16,14 +16,6 @@
 	font: 100 50px/1.5 'Pacifico', Helvetica, sans-serif;
  	color: #191919;
  	text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
-}
-
-.layout-transparent {
-  background: url('../assets/images/header.png') center / cover;
-}
-.layout-transparent .mdl-layout__header,
-.layout-transparent .mdl-layout__drawer-button {
-  color: white;
 }
 
 .menu-button {

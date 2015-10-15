@@ -1,0 +1,26 @@
+.content-title, h2 {
+	font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 1.6em;
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+
+.content-subtitle, h3 {
+	font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-bottom: 0em;
+}	
+
+.content, h4 {
+	font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    letter-spacing: 1;
+    margin-bottom: 1.5em;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}

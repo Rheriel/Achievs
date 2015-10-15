@@ -3,24 +3,16 @@ title pageTitle
 extends layout
 
 block content
-	.layout-transparent.mdl-layout.mdl-js-layout
-		header.mdl-layout__header.mdl-layout__header--transparent
-			.mdl-layout__header-row
-				span.mdl-layout-title
-					h1.hero-logo-white Achievs
-				.mdl-layout-spacer
-				nav.mdl-navigation
-					.menu-button
-						button.mdl-button.mdl-js-button.mdl-button--raised.mdl-js-ripple-effect.mdl-button--accent Register
-					.menu-button
-						button.mdl-button.mdl-js-button.mdl-button--raised.mdl-js-ripple-effect.mdl-button--colored Log in
-		.mdl-layout__drawer
-			span.mdl-layout-title 
-				h1.hero-logo-black Achievs
-			nav.mdl-navigation
-				a.mdl-navigation__link(href="") Link
-				a.mdl-navigation__link(href="") Link
+	.mdl-layout.mdl-js-layout.mdl-layout--fixed-header
+		include minimal-header
+		
 		main.mdl-layout__content
+			.mdl-grid
+				.mdl-cell.mdl-cell--2-col
+					include what-is-achievs
+				.mdl-cell.mdl-cell--4-col
+				.mdl-cell.mdl-cell--6-col
+					include think-of-achievs
 
 		include mini-footer
 					

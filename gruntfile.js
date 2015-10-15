@@ -30,7 +30,18 @@ module.exports = function (grunt) {
 
     // Project settings
     yeoman: appConfig,
-
+    sass: {
+      dist: {
+        files: {
+          'public/stylesheets/style.css': 'sass/style.scss'
+        }
+      },
+      options: {
+        includePaths: [
+          './bower_components/css-calc-mixin'
+        ]
+      }
+    },
     // Watches files for changes and runs tasks based on the changed files
     watch: {
       bower: {
@@ -64,6 +75,13 @@ module.exports = function (grunt) {
           '.tmp/styles/{,*/}*.css',
           '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
         ]
+      },
+      source: {
+        files: ['sass/**/*.scss', 'views/**/*.jade'],
+        tasks: ['sass'],
+        options: {
+          livereload: true
+        }
       }
     },
 
